@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jogo da Forca</title>
+    
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jogo da Forca</h1>
+      
+      <!-- Imagem da forca -->
+      <div id="figure-container">
+        <img id="hangman-image" src="img/forca0.png" alt="Forca" />
+      </div>
+
+      <!-- Onde as letras certas aparecem -->
+      <div id="word"></div>
+
+      <!-- Mensagem de vitória/derrota -->
+      <div id="notification-container"></div>
+
+      <!-- Letras erradas -->
+      <div id="wrong-letters"></div>
+
+      <!-- Teclado virtual -->
+      <div id="keyboard"></div>
+
+      <!-- Botão de dica (lâmpada) -->
+      <button id="hint-button" title="Mostrar Dica">💡</button>
+
+      <!-- Botão de reinício -->
+      <button id="restart-button">Reiniciar</button>
+    </div>
+
+    <!-- Script principal do jogo -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
