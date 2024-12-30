@@ -6,9 +6,6 @@ Segue um modelo de **README.md** que você pode postar no GitHub, descrevendo o 
 
 Este é um jogo da forca simples feito com **HTML**, **CSS** e **JavaScript**. O jogador deve adivinhar a palavra antes de cometer erros suficientes para “enforcar” o boneco.
 
-![Tela do Jogo](./screenshots/forca.png)  
-<sup>*Exemplo de exibição do jogo (ilustração)*</sup>
-
 ## Recursos
 
 - **Lista de Palavras**: Há uma lista de palavras (cada qual com sua dica) que é selecionada aleatoriamente a cada partida.  
